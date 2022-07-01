@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>login page</title>
+  <style>
+    body{
+      margin: 0;
+      background-color: white
+      ;
+    }
+    main {
+      display: flex;
+      justify-content: center;
+      position: relative;
+      top: 20vh;
+      
+      
+        }
+    .main{
+      text-align: center;
+      /* border: solid 1px; */
+      width: 30vw;
+      height: 20em;
+      padding: 2em;
+      background-color: #0093E9;
+background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+
+      
+
+       
+    }
+    .button{
+      position: relative;
+      top: 5vh;
+    }
+    label{
+      color: black;
+    }
+    input{
+      color:black; 
+    }
+    
+  </style>
+</head>
+<body>
+  <main>
+  <div class="main">
+    <h1><u>login</u></h1>
+  <form>
+  <div>
+    <label for="email"><u> Email</u></label>
+    <input type="Email" required="required" name="email" id="email">
+  </div><br>
+  <div>
+    <label for=password><u>Pass</u></label>
+    <input type=password required="required" name="text" id="text">
+  </div><br>
+
+  <div><br>
+
+    <div class="button">
+    <input type="reset" name="reset" value="Reset" id="login">
+    <input type="submit" name="login" value="Login" id="login">
+  </div>
+  </div>
+</form>
+</div>
+</main>
+</body>
+</html>
